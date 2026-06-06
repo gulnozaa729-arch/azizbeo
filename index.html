@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body id="body" class="">
+
+  <header class="h-20 bg-white/5 flex justify-between items-center px-20">
+    <img src="./logo.png" alt="logo">
+
+    <nav class="flex items-center gap-10">
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
+      <button id="btn" onclick="darkMode()" class="text-2xl">☀️</button>
+    </nav>
+  </header>
+
+  <div class="flex flex-col mx-auto max-w-[800px] -mt-[100px] min-h-screen justify-center text-center items-center">
+    <img class="size-[64px] rounded-full" src="/images/avatar.png" alt="avatar">
+    <p class=" mt-5 text-[24px]">Hi, I’m Nanang Prasetya</p>
+    <h1 class="text-[60px] leading-tight font-bold">UI/UX Designer and
+      Software Development</h1>
+    <p class="text-lg max-w-[600px] mt-5">I’m from Indonesia and I have been working (Freelance) as a
+      Software
+      Development
+      especially
+      in the UI/UX Designer
+      and
+      Development for more than 2 year at Panemu Indonesia company.</p>
+    <div class="mt-14 flex gap-5">
+      <button class="h-[40px] bg-blue-700 rounded-full uppercase w-[167px]">say hello</button>
+      <button class="flex items-center gap-2">
+        <img src="/download.png" alt=""> Download CV</button>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
